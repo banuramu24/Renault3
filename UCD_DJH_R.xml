@@ -1,0 +1,46 @@
+<CustomSetting Name="UCD_DJH_R" Method="UCDObjectSetting" ActionType="SET/GET" ECU="TCU" status="on">
+
+
+  <property Name="UCD/Sent/Data/MileageCoveredInTrip;UCD/Context/Ctx_Journey_permit" Type="STRING" value="ON/OFF/NC"  />
+  <property Name="UCD/Sent/Data/FuelInjectionQuantity_FuelConsumption;UCD/Context/Ctx_Journey_permit" Type="STRING" value="ON/OFF/NC"  />
+  
+  
+  
+  <property Name="UCD/Sent/Data/TripFuelConsumption;UCD/Context/Ctx_Journey" Type="STRING" value="ON/OFF/NC"  />
+  <property Name="UCD/Sent/Data/TripEnergyConsumption;UCD/Context/Ctx_Journey" Type="STRING" value="ON/OFF/NC"  />
+  <property Name="UCD/Sent/Data/TripDistance;UCD/Context/Ctx_Journey" Type="STRING" value="ON/OFF/NC"  />
+  
+  
+  
+  <property Name="Vehicle/Received/EV/Recovery/Total/LastTrip;Vehicle/Trigger/EndOfMission" Type="STRING" value="ON/OFF/NC"  />
+  
+  
+  
+  <property Name="Internal/Clock/Time_Formated;Vehicle/Trigger/EndOfJourney" Type="STRING" value="ON/OFF/NC"  />
+  <property Name="Vehicle/Received/Status/Distance/TripUnit;Vehicle/Trigger/EndOfJourney" Type="STRING" value="ON/OFF/NC"  />
+  
+  
+  
+  <property Name="Vehicle/Received/Fuel/Consumption/TripAverage;UCD/Sent/Trigger/Trg_JourneyEndPrivacy" Type="STRING" value="ON/OFF/NC"  />
+  <property Name="Vehicle/Received/Fuel/Consumption/TripUnit;UCD/Sent/Trigger/Trg_JourneyEndPrivacy" Type="STRING" value="ON/OFF/NC"  />
+  
+  
+  
+  <property Name="Vehicle/Received/HVAC/Temperature/CabinCurrentValue;UCD/Sent/Trigger/Trg_On_request" Type="STRING" value="ON/OFF/NC"  />
+  <property Name="Vehicle/Received/Fuel/Consumption/DistanceToEmptyTank;UCD/Sent/Trigger/Trg_On_request" Type="STRING" value="ON/OFF/NC"  />
+   <property Name="Vehicle/Received/Status/VehicleStates;UCD/Sent/Trigger/Trg_On_request" Type="STRING" value="ON/OFF/NC"  />
+   <property Name="Vehicle/Received/Status/VehicleStates;UCD/Sent/Trigger/Trg_On_request" Type="STRING" value="ON/OFF/NC"  />
+   <property Name="Multimedia/Received/Driver_Info_Upload_Permit/Permit_Setting;UCD/Sent/Trigger/Trg_On_request" Type="STRING" value="ON/OFF/NC"  />
+   
+   
+  
+  <property Name="Multimedia/Received/Trip_ECO_Score/Score_Info/Cruise_Score;Vehicle/Trigger/EndOfMission" Type="STRING" value="ON/OFF/NC"  />
+  <property Name="Multimedia/Received/Trip_ECO_Score/Score_Info/Slowdown_Score;Vehicle/Trigger/EndOfMission" Type="STRING" value="ON/OFF/NC"  />
+  <property Name="Multimedia/Received/Trip_ECO_Score/Score_Info/ECO_Score;Vehicle/Trigger/EndOfMission" Type="STRING" value="ON/OFF/NC"  />
+  
+  
+  
+  <property Name="Vehicle/Received/Status/DistanceTotalizer;UCD/Sent/Trigger/Trg_IGN_OFF" Type="STRING" value="ON/OFF/NC"  />
+
+  
+</CustomSetting>
